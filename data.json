@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Galaxy Explorer T-Shirt",
+    "price": 99.99,
     "image": "./imgg/Products/f2.jpg",
     "rating": {
       "rate": 3.9,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Space Adventure Tee",
+    "price": 89.99,
     "image": "./imgg/Products/f3.jpg",
     "rating": {
       "rate": 3.9,
@@ -27,8 +27,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Rocket Ride Shirt",
+    "price": 79.99,
     "image": "./imgg/Products/f4.jpg",
     "rating": {
       "rate": 3.9,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Planet Hopper Tee",
+    "price": 69.99,
     "image": "./imgg/Products/f5.jpg",
     "rating": {
       "rate": 3.9,
@@ -45,8 +45,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Stellar Journey T-Shirt",
+    "price": 59.99,
     "image": "./imgg/Products/f6.jpg",
     "rating": {
       "rate": 3.9,
@@ -54,8 +54,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Cosmic Voyager Tee",
+    "price": 49.99,
     "image": "./imgg/Products/f7.jpg",
     "rating": {
       "rate": 3.9,
@@ -63,17 +63,17 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
-    "image": "./imgg/Products/f8.jpg",
+    "title": "Nebula Nomad T-Shirt",
+    "price": 39.99,
+    "image": "./Imgg/Products/f8.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Lunar Explorer Tee",
+    "price": 29.99,
     "image": "./imgg/Products/n1.jpg",
     "rating": {
       "rate": 3.9,
@@ -81,8 +81,8 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
-    "price": 109.95,
+    "title": "Solar System Shirt",
+    "price": 19.99,
     "image": "./imgg/Products/n2.jpg",
     "rating": {
       "rate": 3.9,
@@ -90,7 +90,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Comet Chaser T-Shirt",
     "price": 109.95,
     "image": "./imgg/Products/n3.jpg",
     "rating": {
@@ -99,7 +99,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Asteroid Belt Tee",
     "price": 109.95,
     "image": "./imgg/Products/n4.jpg",
     "rating": {
@@ -108,7 +108,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Meteor Shower Shirt",
     "price": 109.95,
     "image": "./imgg/Products/f5.jpg",
     "rating": {
@@ -117,7 +117,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Star Gazer Tee",
     "price": 109.95,
     "image": "./imgg/Products/n6.jpg",
     "rating": {
@@ -126,7 +126,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Galaxy Drifter T-Shirt",
     "price": 109.95,
     "image": "./imgg/Products/n7.jpg",
     "rating": {
@@ -135,7 +135,7 @@
     }
   },
   {
-    "title": "Cartoon Astronaut T-Shirts",
+    "title": "Universe Wanderer Tee",
     "price": 109.95,
     "image": "./imgg/Products/n8.jpg",
     "rating": {
