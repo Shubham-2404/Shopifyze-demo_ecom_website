@@ -2,7 +2,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f1.jpg",
+    "image": "./imgg/Products/f1.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -11,7 +11,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f2.jpg",
+    "image": "./imgg/Products/f2.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -20,7 +20,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f3.jpg",
+    "image": "./imgg/Products/f3.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -29,7 +29,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f4.jpg",
+    "image": "./imgg/Products/f4.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -38,7 +38,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f5.jpg",
+    "image": "./imgg/Products/f5.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -47,7 +47,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f6.jpg",
+    "image": "./imgg/Products/f6.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -56,7 +56,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f7.jpg",
+    "image": "./imgg/Products/f7.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -65,7 +65,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f8.jpg",
+    "image": "./imgg/Products/f8.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -74,7 +74,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n1.jpg",
+    "image": "./imgg/Products/n1.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -83,7 +83,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n2.jpg",
+    "image": "./imgg/Products/n2.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -92,7 +92,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n3.jpg",
+    "image": "./imgg/Products/n3.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -101,7 +101,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n4.jpg",
+    "image": "./imgg/Products/n4.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -110,7 +110,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/f5.jpg",
+    "image": "./imgg/Products/f5.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -119,7 +119,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n6.jpg",
+    "image": "./imgg/Products/n6.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -128,7 +128,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n7.jpg",
+    "image": "./imgg/Products/n7.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -137,7 +137,7 @@
   {
     "title": "Cartoon Astronaut T-Shirts",
     "price": 109.95,
-    "image": "../imgg/Products/n8.jpg",
+    "image": "./imgg/Products/n8.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
