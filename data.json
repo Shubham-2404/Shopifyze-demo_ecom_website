@@ -11,7 +11,7 @@
   {
     "title": "Galaxy Explorer T-Shirt",
     "price": 99.99,
-    "image": "Imgg/Products/f1.jpg",
+    "image": "Imgg/Products/f2.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -20,7 +20,7 @@
   {
     "title": "Space Adventure Tee",
     "price": 89.99,
-    "image": "imgg/Products/f3.jpg",
+    "image": "Imgg/Products/f3.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
@@ -29,7 +29,7 @@
   {
     "title": "Rocket Ride Shirt",
     "price": 79.99,
-    "image": "imgg/Products/f4.jpg",
+    "image": "Imgg/Products/f4.jpg",
     "rating": {
       "rate": 3.9,
       "count": 120
