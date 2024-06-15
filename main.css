@@ -19,7 +19,7 @@ h2 {
 
 h4 {
   font-size: 1.5rem;
-  line-height: 1k8rem;
+  line-height: 1.8rem;
   color: #222;
 }
 
@@ -282,7 +282,7 @@ body {
   margin-top: 1rem;
 }
 
-.install{
+.install {
   margin-top: 1rem;
 }
 
@@ -290,18 +290,90 @@ body {
   margin-top: 1rem;
 }
 
-.googleStore, .appStore{
+.googleStore, .appStore {
   width: 6rem;
   height: 2.3rem;
 }
 
-.payment-gateway img{
+.payment-gateway img {
   width: 15rem;
 }
 
-.copyright{
+.copyright {
   text-align: center;
   background: lightgray;
   margin: 0;
   padding: 3rem;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  #header {
+    padding: 1.5rem 2rem;
+  }
+  #hero {
+    padding: 0 40px;
+  }
+  .pro-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 992px) {
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .pro-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background-position: center;
+    padding: 0 20px;
+  }
+  .pro-container {
+    grid-template-columns: 1fr;
+  }
+  #feature {
+    flex-direction: column;
+    align-items: center;
+  }
+  #feature > .fe-box {
+    margin: 10px 0;
+  }
+  #footer {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  #header {
+    padding: 1rem;
+  }
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+  #hero h2 {
+    font-size: 1.2rem;
+  }
+  #hero h4 {
+    font-size: 1rem;
+  }
+  #hero p {
+    font-size: 0.8rem;
+  }
+  #hero button {
+    padding: 10px 40px 10px 30px;
+  }
 }
