@@ -15,7 +15,7 @@ main {
   align-items: center;
   background: #f1f2eb;
   height: 100vh;
-  padding: 3rem;
+  padding:0 3rem 2rem 3rem;
 }
 
 .signup img {
@@ -26,7 +26,7 @@ main {
 form {
   border: transparent;
   width: 50%;
-  height: 80%;
+  height: 75%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 2rem 2rem 0 2rem;
@@ -47,7 +47,7 @@ form {
 }
 
 .input input {
-  height: 50%;
+  height: 30%;
   padding-left: 0.5rem;
   border: none;
   border-bottom: 1px solid #131313;
@@ -63,7 +63,7 @@ form button {
   width: 50%;
   height: 50%;
   margin-left: 70%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   border-radius: 1rem;
   background-color: #f7ce26;
   color: #131313;
@@ -87,10 +87,17 @@ form h2 {
 .input span{
   color: red;
   font-size: 14px;
-  padding: 5px;
+  padding-top: 5px;
 }
 
 a{
-  height: 1rem;
-  margin-top: 7rem;
+  position: absolute;
+  top: 28rem;
+  right: 17rem;
+  text-decoration: none;
+  color: #131313;
+}
+
+a:hover{
+  color: orange;
 }
