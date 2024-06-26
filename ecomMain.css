@@ -108,14 +108,14 @@ body {
   margin: 10px 30px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 10px; /* Adjust gap between grid items if needed */
-  padding-left: 1git arem;
+  gap: 10px;
+  padding-left: 1rem;
   background: #fefdfd;
 }
 
 #product1 .pro {
   width: 15rem;
-  height: 25rem; /* Set a fixed height for the grid items */
+  height: 25rem;
   min-width: 250px;
   padding: 10px 12px;
   border: 1px solid #e3e6f3;
@@ -235,14 +235,14 @@ body {
 }
 
 #loading {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #3498db; /* Blue */
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
   border-radius: 50%;
   width: 100px;
   height: 100px;
   animation: spin 2s linear infinite;
-  margin: 50px auto; /* Center the spinner */
-  display: none; /* Initially hidden */
+  margin: 50px auto;
+  display: none;
 }
 
 .pnf {
@@ -254,16 +254,18 @@ body {
   justify-content: center;
   position: relative;
 }
+
 .pnf img {
   height: 30rem;
   width: 50%;
 }
 
 .display_msg {
-    position: absolute;
-    right: 200px;
-    top: 10px;
+  position: absolute;
+  right: 200px;
+  top: 10px;
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -273,149 +275,109 @@ body {
   }
 }
 
-/* -------> */
-
-/* #sidebar {
-  background-color: #ff7f00;
-  width: 20%;
-  padding: 2rem;
-  position: fixed;
-  right: -100%;
-  top: 0;
-  height: 100vh;
-  transition: 0.3s;
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .pro-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-#sidebar > div > h4 {
-  text-align: end;
-  font-size: 1.5rem;
+@media (max-width: 992px) {
+  .pro-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #header {
+    padding: 1.5rem 3rem;
+  }
+
+  #header > a > img {
+    width: 7rem;
+  }
+
+  #navbar > li {
+    padding: 0 1rem;
+  }
+
+  #footer {
+    padding: 50px 50px 0 50px;
+    gap: 3rem;
+  }
+
+  #footer .col img {
+    width: 7rem;
+  }
+
+  .googleStore,
+  .appStore {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  .payment-gateway img {
+    width: 12rem;
+  }
 }
 
-.close {
-  cursor: pointer;
+@media (max-width: 768px) {
+  .pro-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #header {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+
+  #header > a > img {
+    width: 6rem;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #navbar > li {
+    padding: 0.5rem 0;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 0 30px;
+    gap: 2rem;
+  }
+
+  #footer .col img {
+    width: 6rem;
+  }
+
+  .googleStore,
+  .appStore {
+    width: 4rem;
+    height: 1.8rem;
+  }
+
+  .payment-gateway img {
+    width: 10rem;
+  }
 }
 
-#sidebar > div > i {
-  font-size: 2rem;
-  margin-top: 1rem;
+@media (max-width: 576px) {
+  .pro-container {
+    grid-template-columns: 1fr;
+  }
+
+  #header {
+    padding: 0.5rem 1rem;
+  }
+
+  #header > a > img {
+    width: 5rem;
+  }
+
+  #footer {
+    padding: 20px 20px 0 20px;
+  }
 }
-
-#sidebar > div > span {
-  font-size: 1.55rem;
-  margin-left: 1rem;
-  color: whitesmoke;
-}
-
-#sidebar > div > a > button {
-  width: 100%;
-  height: 2rem;
-  margin-top: 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(118, 134, 238);
-  color: #fff;
-  cursor: pointer;
-} */
-
-/* #userInfo {
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-  align-items: center;
-}
-
-#details {
-  border-top: 2px solid gray;
-  margin-top: 1rem;
-  padding-top: 2rem;
-  color: #fff;
-}
-
-#details > a {
-  display: block;
-  text-decoration: none;
-  margin-top: 1rem;
-  color: #fff;
-  font-size: 1.3rem;
-}
-
-#details > h3 {
-  margin-top: 1rem;
-}
-
-.design > div { */
-/* width: 22%; */
-/* background: #ff7f00;
-}
-
-.design > div > img {
-  width: 100%;
-  height: 20rem;
-}
-
-.design > div > h5 {
-  text-align: center;
-  font-size: 1.2rem;
-  color: #fff;
-}
-
-.design > div > h3 {
-  color: #fff;
-  padding-left: 1rem;
-  margin-top: 1rem;
-}
-
-.design > div > button {
-  width: 100%;
-  height: 3rem;
-  border: none;
-  color: #fff;
-  background: lightslategray;
-  margin-top: 1rem;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.design > div > button:active {
-  background-color: purple;
-  color: #fff;
-}
-
-.design {
-  display: grid;
-  grid-template-columns: repeat(4, 23%);
-  justify-content: space-between;
-  gap: 1rem;
-  margin-top: 1rem;
-} */
-
-/* #search {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0;
-  flex-direction: column;
-  width: 100%;
-}
-
-#search > div > input {
-  width: 20rem;
-  height: 1.8rem;
-  padding-left: 0.3rem;
-}
-
-#search > div > button {
-  width: 3rem;
-  cursor: pointer;
-  height: 1.8rem;
-}
-
-#searchcontainer {
-  width: 100%;
-  /* display: flex; */
-/* justify-content: center;
-}
-
-main {
-  background: lightgrey;
-} */
