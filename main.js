@@ -4,12 +4,13 @@ let productInfo = document.querySelector(".pro-container");
 console.log(productInfo);
 
 let getData = async function () {
-  let data = await fetch("./data.json");
-  let finalData = await data.json();
+  try {
+    let data = await fetch("./data.json");
+    let finalData = await data.json();
 
-  finalData.map((v, i) => {
-    let { image, title, price } = v;
-    productInfo.innerHTML += ` <div class="pro">
+    finalData.map((v, i) => {
+      let { image, title, price } = v;
+      productInfo.innerHTML += ` <div class="pro">
                 <img src=${image} alt="">
                 <div class="des">
                     <span>addidas</span>
@@ -24,7 +25,10 @@ let getData = async function () {
                 <h6>$${price}</h6>
                 <a href="#"> <i class="fal fa-shopping-cart cart"></i> </a>
             </div>`;
-  });
+    });
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 getData();
