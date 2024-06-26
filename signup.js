@@ -116,6 +116,6 @@ e.preventDefault();
     storage.push(userData);
     console.log(storage);
     localStorage.setItem("userData", JSON.stringify(storage));
-    window.open("./Main.html", "_self");
+    window.open("./SignIn.html", "_self");
   }
 });

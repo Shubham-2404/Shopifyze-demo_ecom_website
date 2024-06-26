@@ -109,7 +109,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px; /* Adjust gap between grid items if needed */
-  padding-left: 1rem;
+  padding-left: 1git arem;
   background: #fefdfd;
 }
 
