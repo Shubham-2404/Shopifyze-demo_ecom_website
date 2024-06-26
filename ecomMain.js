@@ -55,7 +55,7 @@ async function mainfun() {
   loadingError.style.display = "none";
   try {
     let dataFromServer = await fetch(
-      "https://www.shoppersstack.com/shopping/productsalpha"
+      "https://www.shoppersstack.com/shopping/products/alpha"
     );
     let jsonData = await dataFromServer.json();
     console.log(jsonData);
