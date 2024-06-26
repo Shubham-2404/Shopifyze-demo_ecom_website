@@ -290,7 +290,8 @@ body {
   margin-top: 1rem;
 }
 
-.googleStore, .appStore {
+.googleStore,
+.appStore {
   width: 6rem;
   height: 2.3rem;
 }
