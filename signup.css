@@ -15,7 +15,7 @@ main {
   align-items: center;
   background: #f1f2eb;
   height: 100vh;
-  padding:0 3rem 2rem 3rem;
+  padding: 0 3rem 2rem 3rem;
 }
 
 .signup img {
@@ -26,6 +26,7 @@ main {
 form {
   border: transparent;
   width: 50%;
+  max-width: 600px;
   height: 75%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -84,20 +85,79 @@ form h2 {
   left: 3.7rem;
 }
 
-.input span{
+.input span {
   color: red;
   font-size: 14px;
   padding-top: 5px;
 }
 
-a{
+a {
   position: absolute;
   top: 28rem;
-  right: 17rem;
+  right: 14rem;
   text-decoration: none;
   color: #131313;
 }
 
-a:hover{
+a:hover {
   color: orange;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .signup {
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .signup img {
+    width: 20%;
+    height: auto;
+  }
+
+  form {
+    width: 80%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  form button {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+
+  a {
+    top: 26rem;
+    right: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .signup {
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .signup img {
+    width: 30%;
+    height: auto;
+  }
+
+  form {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  form button {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    top: 25rem;
+    right: 1rem;
+  }
 }
