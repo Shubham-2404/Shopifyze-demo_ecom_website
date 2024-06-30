@@ -5,9 +5,7 @@ let userCart = oneUser ? oneUser.userCart : [];
 let msg = document.querySelector("#message");
 let container = document.querySelector("#cont");
 
-// if (oneUser) {
-//   msg.innerHTML = `Hi , ${oneUser.userFirstName}`;
-
+if (oneUser) {
   // Displaying products
   if (userCart.length != 0) {
     console.log(userCart);
@@ -61,7 +59,7 @@ let container = document.querySelector("#cont");
         // Re-display products
         displayProduct();
 
-        if(userCart.length == 0){
+        if (userCart.length == 0) {
           container.innerHTML = `<div id="cartCont">
           <div id="cont">
             Your cart is empty back to <a href="./ecomMain.html">main page</a>
