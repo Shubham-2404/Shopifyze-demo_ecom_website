@@ -112,6 +112,7 @@ e.preventDefault();
       userMobile: mobile.value,
       userEmail: mail.value,
       userPassword: pass.value,
+      userCart: null
     };
     storage.push(userData);
     console.log(storage);
