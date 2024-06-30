@@ -5,8 +5,8 @@ let userCart = oneUser ? oneUser.userCart : [];
 let msg = document.querySelector("#message");
 let container = document.querySelector("#cont");
 
-if (oneUser) {
-  msg.innerHTML = `Hi , ${oneUser.userFirstName}`;
+// if (oneUser) {
+//   msg.innerHTML = `Hi , ${oneUser.userFirstName}`;
 
   // Displaying products
   if (userCart.length != 0) {
