@@ -247,7 +247,7 @@ async function mainfun() {
 
 function cartHaveItem() {
   let addedItem = document.querySelector(".shopping");
-  if (oneUser && oneUser.userCart.length > 0 || oneUser && oneUser.userCart == null) {
+  if (oneUser && oneUser.userCart.length > 0) {
     addedItem.style.background = "orang";
   } else {
     addedItem.style.background = "#e3e6f3";
