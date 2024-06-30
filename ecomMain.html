@@ -37,22 +37,40 @@
           <li><a href="#">About</a></li>
           <li><a href="footer">Contact</a></li>
           <li>
-            <a href="#"><i class="fa-regular fa-bag-shopping"></i></a>
+            <a class="shopping" href="./ecomCart.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+          <li>
+            <a class="userDetails-left" href="#"
+              ><i class="fa-solid fa-user-large"></i>
+              <div class="userDetails-right">
+                <span class="currentUser"></span>
+                <span class="userMail"></span>
+              </div>
+            </a>
+
+            <ul>
+              <li class="sub-item">
+                <span class="material-icons-outlined"
+                  ><i class="fa-solid fa-user"></i
+                ></span>
+                <p class="currentUser2"></p>
+              </li>
+              <!-- <li class="sub-item">
+                <span class="material-icons-outlined"><i class="fa-solid fa-gear"></i>  </span>
+                <p>Update Profile</p>
+                </li> -->
+              <li id="logout" class="sub-item">
+                <span class="material-icons-outlined"
+                  ><i class="fa-solid fa-right-from-bracket"></i></span
+                ><a href="./SignIn.html"><p>LogOut</p></a>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
     </section>
-
-    <!-- <section id="sidebar">
-      <div>
-        <h4><i class="fa-solid fa-square-xmark close"></i></h4>
-        <i class="fa-duotone fa-user"></i>
-        <span id="userName">Guest</span>
-      </div>
-      <div id="details">
-        <a href="./ecomSignin.html"><button>Login</button></a>
-      </div>
-    </section> -->
     <!-- <section id="search">
       <div>
         <input
@@ -67,10 +85,9 @@
 
       <div id="searchcontainer" class="design"></div>
     </section> -->
+
     <main>
       <section id="product1">
-        <!-- <h2>Featured Products</h2>
-        <p>Summer Collection New Morden Design</p> -->
         <div id="loading" class="spinner"></div>
         <div id="error" class="pnf">
           <img
@@ -79,33 +96,12 @@
           />
           <div class="display_msg">
             <h2>Sorry</h2>
-            <h4>Something went wrong on our end. </h4>
+            <h4>Something went wrong on our end.</h4>
             <p><a href="./Main.html">Click here</a> to go home page.</p>
           </div>
         </div>
-        <div class="pro-container">
-          <!-- <div class="pro">
-                  <img src="Imgg/Products/f1.jpg" alt="">
-                  <div class="des">
-                      <span>addidas</span>
-                      <h5>Cartoon Astronaut T-Shirts</h5>
-                      <div class="star"></div>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                  </div>
-                  <h6>$78</h6>
-                  <a href="#"> <i class="fal fa-shopping-cart cart"></i> </a>
-              </div> -->
-        </div>
+        <div class="pro-container"></div>
       </section>
-
-      <!-- <section id="malecontainer" class="design"></section>
-      <section id="femalecontainer" class="design"></section>
-      <section id="kidscontainer" class="design"></section>
-      <section id="electronicscontainer" class="design"></section> -->
 
       <section id="footer">
         <div class="col">
@@ -166,3 +162,4 @@
     <script src="./ecomMain.js"></script>
   </body>
 </html>
+

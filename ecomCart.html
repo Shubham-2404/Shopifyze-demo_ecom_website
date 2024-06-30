@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./ecomCart.css" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-d53d10572a0e0d37cb8d614a3f177a0c.css?vsn=d"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.2/css/sharp-thin.css"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="header">
+        <a href="#"><img src="Imgg/shopifyze named logo.png" alt="logo" /></a>
+        <div>
+          <ul id="navbar">
+            <li><a href="./Main.html">Home</a></li>
+            <li><a class="active" href="#">Shop</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="footer">Contact</a></li>
+            <li>
+              <a href="./ecomCart.html"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ><sup><i class="fa-solid fa-circle"></i></sup></a>
+            </li>
+            <li>
+              <a class="userDetails-left" href="#"
+                ><i class="fa-solid fa-user-large"></i>
+                <div class="userDetails-right">
+                  <span class="currentUser"></span>
+                  <span class="userMail"></span>
+                </div>
+              </a>
+  
+              <ul>
+                <li class="sub-item">
+                  <span class="material-icons-outlined"
+                    ><i class="fa-solid fa-user"></i
+                  ></span>
+                  <p class="currentUser2"></p>
+                </li>
+                <!-- <li class="sub-item">
+                  <span class="material-icons-outlined"><i class="fa-solid fa-gear"></i>  </span>
+                  <p>Update Profile</p>
+                  </li> -->
+                <li id="logout" class="sub-item">
+                  <span class="material-icons-outlined"
+                    ><i class="fa-solid fa-right-from-bracket"></i></span
+                  ><a href="./SignIn.html"><p>LogOut</p></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- <div id="message">
+        First you need to <a href="./ecomSignin.html">login</a>
+      </div> -->
+
+      <div id="cartCont">
+        <div id="cont">
+          Your cart is empty back to <a href="./ecomMain.html">main page</a>
+        </div>
+        <!-- <div class="design" id="">
+          <div> <img src="" alt="" /></div>
+         
+          <div>
+            <h3>name</h3>
+            <h2>price</h2>
+          </div>
+          <div><i class="fa-solid fa-trash"></i></div>
+        </div> -->
+        <div id="static">
+          <h3>Total:Rs. <spna id="total"></spna></h3>
+          <button>Make payement</button>
+        </div>
+      </div>
+      <section id="footer">
+        <div class="col">
+          <img src="Imgg/shopifyze named logo.png" alt="" />
+          <h4>Contact</h4>
+          <p>
+            <strong>Address: </strong>Lorem ipsum dolor sit amet consectetur
+            Lorem ipsum dolor.
+          </p>
+          <p><strong>Phone: </strong>+91 93212046745 / +01222 3546</p>
+          <div class="follow">
+            <h4>Follow us</h4>
+            <div>
+              <i class="fa-brands fa-facebook-f"></i
+              ><i class="fa-brands fa-instagram"></i
+              ><i class="fa-brands fa-x-twitter"></i
+              ><i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="about">
+          <h4>About</h4>
+          <p>About Us</p>
+          <p>Delivery Information</p>
+          <p>Privacy Policy</p>
+          <p>Terms & Condition</p>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="account">
+          <h4>My Account</h4>
+          <p><a href="./SignIn.html">Sign in</a></p>
+          <p>View Cart</p>
+          <p>My Wishlist</p>
+          <p>Track My Order</p>
+          <p>Help</p>
+        </div>
+
+        <div class="install">
+          <h4>Install App</h4>
+          <p>From App Store or Google Play</p>
+          <div class="img">
+            <img class="appStore" src="Imgg/downloads/app store.png" alt="" />
+            <img
+              class="googleStore"
+              src="Imgg/downloads/playstore.png"
+              alt=""
+            />
+          </div>
+          <p>Secaured Paymemt Gateways</p>
+          <div class="payment-gateway">
+            <img src="Imgg/downloads/pngwing.com.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./ecomCart.js"></script>
+  </body>
+</html>
